@@ -1,0 +1,159 @@
+body{
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+
+
+  }.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.nav-item {
+  padding: 0px 15px;
+  font-size: 1.2rem;
+}
+
+.title {
+  background-color: #ff4c68;
+}
+
+.title button {
+  margin: 10px;
+}
+
+@media(min-size:1024){
+#under-nav{
+  padding: 0 15%;
+}}
+h1 {
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.title-image {
+  width: 20%;
+  background-color: transparent;
+  transform: rotate(30deg);
+  position: absolute;
+}
+
+@media screen and (max-width:1024px) {
+  .title-image {
+    width: 70%;
+    transform: rotate(0deg);
+    position: static;
+    margin: 0px auto;
+    display: block;
+  }
+  h1{
+    font-size: 3rem;
+  }
+}
+
+.navbar {
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/*Features*/
+#features {
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+#features div {
+  padding: 0 10%;
+}
+
+#features div div {
+  padding: 7% 0;
+}
+
+#features i {
+  color: #ef8172;
+  font-size: 70px;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features h3 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  padding: 2% 0;
+}
+
+#features p {
+  color: #8f8f8f;
+  padding: 0 20%;
+}
+
+/* testimonials section */
+#testimonials, #press {
+  background-color: #ef8172;
+  color: white;
+  padding: 4% 15%;
+  text-align: center;
+}
+
+#testimonials img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+#testimonials h2 {
+  font-size: 200%;
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+#press img {
+  width: 20%;
+  margin: 0 auto;
+}
+
+/* Pricing section*/
+#pricing {
+  padding: 3% 10%;
+}
+
+.card-deck div {
+  margin: 0;
+}
+
+.card-header {
+  width: 100%;
+}
+
+
+/*cta*/
+#cta{
+  background-color: #ff4c68;
+padding: 10% 10%;
+}
+
+#cta h3{
+  color: white;
+  font-size: 3rem;
+
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+
+/*footer*/
+#footer{
+  padding: 1% 10%;
+}
+#footer i{
+  margin: 0px 10px;
+}
